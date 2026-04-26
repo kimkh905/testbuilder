@@ -4,35 +4,208 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TestBuilder</title>
-  <meta name="description" content="A GitHub Pages starter site for the TestBuilder repository.">
+  <meta
+    name="description"
+    content="TestBuilder helps teachers and teams turn raw notes into clean quizzes, practice sets, and shareable assessments."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  >
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="shell">
-    <section class="hero">
-      <p class="eyebrow">GitHub Pages Ready</p>
-      <h1>TestBuilder</h1>
-      <p class="lede">
-        This repository is configured to deploy as a static site with GitHub Pages.
-        Edit <code>index.html</code>, <code>style.css</code>, and <code>main.js</code>,
-        then push to <code>main</code> to publish updates.
-      </p>
-      <div class="actions">
-        <a class="button" href="https://github.com/kimkh905/testbuilder" target="_blank" rel="noreferrer">View Repository</a>
-        <a class="button button-secondary" href="#next-steps">Next Steps</a>
-      </div>
-    </section>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="TestBuilder home">
+        <span class="brand-mark">TB</span>
+        <span class="brand-text">TestBuilder</span>
+      </a>
 
-    <section id="next-steps" class="panel">
-      <h2>What deploys</h2>
-      <ul>
-        <li>HTML from <code>index.html</code></li>
-        <li>Styles from <code>style.css</code></li>
-        <li>Behavior from <code>main.js</code></li>
-      </ul>
-      <p id="status" class="status" aria-live="polite"></p>
-    </section>
-  </main>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+
+      <a class="nav-cta" href="https://github.com/kimkh905/testbuilder" target="_blank" rel="noreferrer">
+        View Repo
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Assessment Design Without The Mess</p>
+          <h1>Build cleaner tests from rough notes, slides, and study guides.</h1>
+          <p class="hero-text">
+            TestBuilder turns scattered lesson material into structured quizzes,
+            exam drafts, and practice sets that feel deliberate instead of improvised.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#pricing">Start A Project</a>
+            <a class="button button-secondary" href="#workflow">See The Flow</a>
+          </div>
+
+          <dl class="hero-metrics">
+            <div>
+              <dt>Question blocks</dt>
+              <dd>Drag, regroup, and version by topic.</dd>
+            </div>
+            <div>
+              <dt>Fast exports</dt>
+              <dd>Publish polished sets without a rebuild maze.</dd>
+            </div>
+            <div>
+              <dt>Review ready</dt>
+              <dd>Share drafts before the final release goes live.</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-stage reveal" aria-label="Interface preview">
+          <div class="builder-card builder-primary">
+            <div class="builder-topline">
+              <span>Unit 4 Midterm</span>
+              <span class="pill">Draft v3</span>
+            </div>
+            <div class="builder-grid">
+              <article>
+                <p class="mini-label">Input stack</p>
+                <ul>
+                  <li>Chapter summary</li>
+                  <li>Vocabulary list</li>
+                  <li>Lecture slides</li>
+                </ul>
+              </article>
+              <article>
+                <p class="mini-label">Output mix</p>
+                <ul>
+                  <li>12 MCQ</li>
+                  <li>4 short answer</li>
+                  <li>1 rubric section</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+
+          <div class="builder-card builder-floating">
+            <p class="mini-label">Live structure</p>
+            <div class="timeline-line"><span></span></div>
+            <div class="chip-row">
+              <span class="chip">Grammar</span>
+              <span class="chip">Reading</span>
+              <span class="chip">Essay</span>
+            </div>
+          </div>
+
+          <div class="builder-card builder-note">
+            <p class="mini-label">Publishing note</p>
+            <p class="note-text">
+              Ready for GitHub Pages deployment with a static site workflow.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-bar reveal" aria-label="Highlights">
+        <div>Write once</div>
+        <div>Structure visually</div>
+        <div>Push to publish</div>
+        <div>Keep revisions traceable</div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Features</p>
+          <h2>Built for people who need a test to feel organized before it feels finished.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <p class="card-index">01</p>
+            <h3>Compose by section</h3>
+            <p>
+              Split a test into reusable blocks so vocabulary, reading, and writing
+              sections can move independently.
+            </p>
+          </article>
+
+          <article class="feature-card reveal">
+            <p class="card-index">02</p>
+            <h3>Keep drafts legible</h3>
+            <p>
+              Work from a layout that makes unfinished material readable enough to review
+              with a teacher, teammate, or client.
+            </p>
+          </article>
+
+          <article class="feature-card reveal">
+            <p class="card-index">03</p>
+            <h3>Ship as a static site</h3>
+            <p>
+              Publish from GitHub Pages with a small footprint and no fragile backend
+              dependency chain.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflow" class="section workflow">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Workflow</p>
+          <h2>A simple path from raw material to publishable assessment.</h2>
+        </div>
+
+        <div class="workflow-rail">
+          <article class="workflow-step reveal">
+            <span class="step-number">1</span>
+            <h3>Collect source material</h3>
+            <p>Start with notes, references, prompts, or course objectives.</p>
+          </article>
+
+          <article class="workflow-step reveal">
+            <span class="step-number">2</span>
+            <h3>Shape the test</h3>
+            <p>Turn content into sections, tune difficulty, and clean the pacing.</p>
+          </article>
+
+          <article class="workflow-step reveal">
+            <span class="step-number">3</span>
+            <h3>Push and publish</h3>
+            <p>Commit to `main`, let GitHub Pages deploy, and share the live URL.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="pricing" class="section pricing">
+        <div class="pricing-card reveal">
+          <p class="eyebrow">Current Setup</p>
+          <h2>Your Pages deployment is already wired.</h2>
+          <p>
+            This repository now has a homepage, a GitHub Pages workflow, and an origin
+            remote pointing to the live project repo.
+          </p>
+          <ul class="pricing-points">
+            <li>Repository: `kimkh905/testbuilder`</li>
+            <li>Branch: `main`</li>
+            <li>Target URL: `https://kimkh905.github.io/testbuilder/`</li>
+          </ul>
+          <a class="button button-primary" href="https://kimkh905.github.io/testbuilder/" target="_blank" rel="noreferrer">
+            Open Site
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>TestBuilder</p>
+      <p id="footer-status">Publishing from GitHub Pages.</p>
+    </footer>
+  </div>
 
   <script src="main.js"></script>
 </body>
