@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TestBuilder</title>
+  <title>HanBridge Korean</title>
   <meta
     name="description"
-    content="TestBuilder helps teachers and teams turn raw notes into clean quizzes, practice sets, and shareable assessments."
+    content="A beginner-friendly Korean learning website for foreigners with Hangul, survival phrases, study paths, and a quick quiz."
   >
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
     rel="stylesheet"
   >
   <link rel="stylesheet" href="style.css">
@@ -19,191 +19,222 @@
 <body>
   <div class="page-shell">
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="TestBuilder home">
-        <span class="brand-mark">TB</span>
-        <span class="brand-text">TestBuilder</span>
+      <a class="brand" href="#top" aria-label="HanBridge Korean home">
+        <span class="brand-mark">ㅎ</span>
+        <span class="brand-text">HanBridge Korean</span>
       </a>
 
       <nav class="site-nav" aria-label="Primary">
-        <a href="#features">Features</a>
-        <a href="#workflow">Workflow</a>
-        <a href="#pricing">Pricing</a>
+        <a href="#path">Study Path</a>
+        <a href="#hangul">Hangul</a>
+        <a href="#phrases">Phrases</a>
+        <a href="#quiz">Quiz</a>
       </nav>
 
-      <a class="nav-cta" href="https://github.com/kimkh905/testbuilder" target="_blank" rel="noreferrer">
-        View Repo
-      </a>
+      <a class="nav-cta" href="#quiz">Start Learning</a>
     </header>
 
     <main id="top">
       <section class="hero">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Assessment Design Without The Mess</p>
-          <h1>Build cleaner tests from rough notes, slides, and study guides.</h1>
+          <p class="eyebrow">Korean For Everyday Life</p>
+          <h1>Learn Korean in a way that gets you speaking early.</h1>
           <p class="hero-text">
-            TestBuilder turns scattered lesson material into structured quizzes,
-            exam drafts, and practice sets that feel deliberate instead of improvised.
+            Built for foreigners who want practical Korean, this site starts with Hangul,
+            useful expressions, and simple cultural context instead of burying you in grammar first.
           </p>
 
           <div class="hero-actions">
-            <a class="button button-primary" href="#pricing">Start A Project</a>
-            <a class="button button-secondary" href="#workflow">See The Flow</a>
+            <a class="button button-primary" href="#path">See The Study Path</a>
+            <a class="button button-secondary" href="#phrases">Practice Phrases</a>
           </div>
 
           <dl class="hero-metrics">
             <div>
-              <dt>Question blocks</dt>
-              <dd>Drag, regroup, and version by topic.</dd>
+              <dt>Hangul first</dt>
+              <dd>Read the alphabet before memorizing random words.</dd>
             </div>
             <div>
-              <dt>Fast exports</dt>
-              <dd>Publish polished sets without a rebuild maze.</dd>
+              <dt>Useful Korean</dt>
+              <dd>Learn greetings, ordering, directions, and self-introduction.</dd>
             </div>
             <div>
-              <dt>Review ready</dt>
-              <dd>Share drafts before the final release goes live.</dd>
+              <dt>Beginner friendly</dt>
+              <dd>Short sections, clear pronunciation notes, and quick review loops.</dd>
             </div>
           </dl>
         </div>
 
-        <div class="hero-stage reveal" aria-label="Interface preview">
-          <div class="builder-card builder-primary">
-            <div class="builder-topline">
-              <span>Unit 4 Midterm</span>
-              <span class="pill">Draft v3</span>
+        <div class="hero-stage reveal" aria-label="Korean learning preview">
+          <article class="stage-card stage-primary">
+            <p class="card-label">Today&apos;s focus</p>
+            <h2>안녕하세요</h2>
+            <p class="pronunciation">annyeonghaseyo</p>
+            <p class="translation">Hello / Good day</p>
+            <div class="progress-row">
+              <span>Listening</span>
+              <span>Speaking</span>
+              <span>Reading</span>
             </div>
-            <div class="builder-grid">
-              <article>
-                <p class="mini-label">Input stack</p>
-                <ul>
-                  <li>Chapter summary</li>
-                  <li>Vocabulary list</li>
-                  <li>Lecture slides</li>
-                </ul>
-              </article>
-              <article>
-                <p class="mini-label">Output mix</p>
-                <ul>
-                  <li>12 MCQ</li>
-                  <li>4 short answer</li>
-                  <li>1 rubric section</li>
-                </ul>
-              </article>
-            </div>
-          </div>
+          </article>
 
-          <div class="builder-card builder-floating">
-            <p class="mini-label">Live structure</p>
-            <div class="timeline-line"><span></span></div>
-            <div class="chip-row">
-              <span class="chip">Grammar</span>
-              <span class="chip">Reading</span>
-              <span class="chip">Essay</span>
-            </div>
-          </div>
-
-          <div class="builder-card builder-note">
-            <p class="mini-label">Publishing note</p>
-            <p class="note-text">
-              Ready for GitHub Pages deployment with a static site workflow.
+          <article class="stage-card stage-note">
+            <p class="card-label">Learning tip</p>
+            <p>
+              Korean becomes much easier once you stop depending on romanization.
+              Use it only as a bridge, not as a permanent crutch.
             </p>
-          </div>
+          </article>
+
+          <article class="stage-card stage-mini">
+            <p class="card-label">Mini wins</p>
+            <ul>
+              <li>Read your first Hangul block</li>
+              <li>Introduce yourself politely</li>
+              <li>Order coffee without English</li>
+            </ul>
+          </article>
         </div>
       </section>
 
-      <section class="trust-bar reveal" aria-label="Highlights">
-        <div>Write once</div>
-        <div>Structure visually</div>
-        <div>Push to publish</div>
-        <div>Keep revisions traceable</div>
+      <section class="highlight-bar reveal" aria-label="Core benefits">
+        <div>Read Hangul blocks</div>
+        <div>Speak useful phrases</div>
+        <div>Build listening habits</div>
+        <div>Study in short sessions</div>
       </section>
 
-      <section id="features" class="section">
+      <section id="path" class="section">
         <div class="section-heading reveal">
-          <p class="eyebrow">Features</p>
-          <h2>Built for people who need a test to feel organized before it feels finished.</h2>
+          <p class="eyebrow">Study Path</p>
+          <h2>A beginner roadmap that feels manageable.</h2>
         </div>
 
-        <div class="feature-grid">
-          <article class="feature-card reveal">
-            <p class="card-index">01</p>
-            <h3>Compose by section</h3>
+        <div class="path-grid">
+          <article class="path-card reveal">
+            <span class="step-badge">Week 1</span>
+            <h3>Learn Hangul structure</h3>
             <p>
-              Split a test into reusable blocks so vocabulary, reading, and writing
-              sections can move independently.
+              Focus on how Korean letters combine into blocks. Recognize consonants,
+              vowels, and final sounds before chasing difficult grammar.
             </p>
           </article>
 
-          <article class="feature-card reveal">
-            <p class="card-index">02</p>
-            <h3>Keep drafts legible</h3>
+          <article class="path-card reveal">
+            <span class="step-badge">Week 2</span>
+            <h3>Use survival phrases</h3>
             <p>
-              Work from a layout that makes unfinished material readable enough to review
-              with a teacher, teammate, or client.
+              Practice greetings, thanks, apologies, and polite requests that you can
+              immediately use in Korea or with Korean friends.
             </p>
           </article>
 
-          <article class="feature-card reveal">
-            <p class="card-index">03</p>
-            <h3>Ship as a static site</h3>
+          <article class="path-card reveal">
+            <span class="step-badge">Week 3</span>
+            <h3>Talk about yourself</h3>
             <p>
-              Publish from GitHub Pages with a small footprint and no fragile backend
-              dependency chain.
+              Learn name, country, job, and daily routine phrases so you can build real
+              introductions instead of isolated vocabulary.
+            </p>
+          </article>
+
+          <article class="path-card reveal">
+            <span class="step-badge">Week 4</span>
+            <h3>Build listening stamina</h3>
+            <p>
+              Repeat short dialogues, shadow natural audio, and review the same phrases
+              until your ears stop treating Korean like noise.
             </p>
           </article>
         </div>
       </section>
 
-      <section id="workflow" class="section workflow">
+      <section id="hangul" class="section hangul-section">
         <div class="section-heading reveal">
-          <p class="eyebrow">Workflow</p>
-          <h2>A simple path from raw material to publishable assessment.</h2>
+          <p class="eyebrow">Hangul Basics</p>
+          <h2>Start with letters that appear every day.</h2>
         </div>
 
-        <div class="workflow-rail">
-          <article class="workflow-step reveal">
-            <span class="step-number">1</span>
-            <h3>Collect source material</h3>
-            <p>Start with notes, references, prompts, or course objectives.</p>
+        <div class="hangul-layout">
+          <article class="hangul-panel reveal">
+            <h3>Core consonants</h3>
+            <div id="consonant-grid" class="hangul-grid" aria-label="Core consonants"></div>
           </article>
 
-          <article class="workflow-step reveal">
-            <span class="step-number">2</span>
-            <h3>Shape the test</h3>
-            <p>Turn content into sections, tune difficulty, and clean the pacing.</p>
-          </article>
-
-          <article class="workflow-step reveal">
-            <span class="step-number">3</span>
-            <h3>Push and publish</h3>
-            <p>Commit to `main`, let GitHub Pages deploy, and share the live URL.</p>
+          <article class="hangul-panel reveal">
+            <h3>Core vowels</h3>
+            <div id="vowel-grid" class="hangul-grid" aria-label="Core vowels"></div>
           </article>
         </div>
       </section>
 
-      <section id="pricing" class="section pricing">
-        <div class="pricing-card reveal">
-          <p class="eyebrow">Current Setup</p>
-          <h2>Your Pages deployment is already wired.</h2>
-          <p>
-            This repository now has a homepage, a GitHub Pages workflow, and an origin
-            remote pointing to the live project repo.
-          </p>
-          <ul class="pricing-points">
-            <li>Repository: `kimkh905/testbuilder`</li>
-            <li>Branch: `main`</li>
-            <li>Target URL: `https://kimkh905.github.io/testbuilder/`</li>
-          </ul>
-          <a class="button button-primary" href="https://kimkh905.github.io/testbuilder/" target="_blank" rel="noreferrer">
-            Open Site
-          </a>
+      <section id="phrases" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Useful Phrases</p>
+          <h2>Study expressions you can use on day one.</h2>
         </div>
+
+        <div class="phrase-toolbar reveal" role="tablist" aria-label="Phrase categories">
+          <button class="phrase-tab is-active" type="button" data-set="greetings">Greetings</button>
+          <button class="phrase-tab" type="button" data-set="travel">Travel</button>
+          <button class="phrase-tab" type="button" data-set="cafe">Cafe</button>
+        </div>
+
+        <div id="phrase-list" class="phrase-grid reveal" aria-live="polite"></div>
+      </section>
+
+      <section class="section culture-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Culture Notes</p>
+          <h2>Language lands better when you understand the tone behind it.</h2>
+        </div>
+
+        <div class="culture-grid">
+          <article class="culture-card reveal">
+            <h3>Polite speech matters</h3>
+            <p>
+              Beginners should usually learn the polite style first. It sounds safer,
+              more respectful, and works in most daily situations.
+            </p>
+          </article>
+
+          <article class="culture-card reveal">
+            <h3>Name + 이에요/예요</h3>
+            <p>
+              Self-introduction in Korean is often softer and more formulaic than direct
+              English introductions. Repetition here is useful, not boring.
+            </p>
+          </article>
+
+          <article class="culture-card reveal">
+            <h3>Listening before speed</h3>
+            <p>
+              Fast speaking is not the first goal. Clear pronunciation and rhythm will
+              help you more than memorizing 500 words badly.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="quiz" class="section quiz-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Quick Check</p>
+          <h2>Test one small thing before you move on.</h2>
+        </div>
+
+        <article class="quiz-card reveal">
+          <p class="quiz-label">Beginner quiz</p>
+          <h3 id="quiz-question">Loading question...</h3>
+          <div id="quiz-options" class="quiz-options"></div>
+          <p id="quiz-feedback" class="quiz-feedback" aria-live="polite"></p>
+          <button id="next-question" class="button button-secondary" type="button">Next Question</button>
+        </article>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>TestBuilder</p>
-      <p id="footer-status">Publishing from GitHub Pages.</p>
+      <p>HanBridge Korean</p>
+      <p id="footer-status">Static site ready for GitHub Pages.</p>
     </footer>
   </div>
 
